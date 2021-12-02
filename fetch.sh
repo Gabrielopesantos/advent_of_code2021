@@ -11,8 +11,8 @@ else
     d="$1"
     dd=$(echo $1 | sed 's/^0*//')
     if [ ! -d "./day_$d/" ]; then
-        mkdir -p day_$d
-        touch day_$d/solution.py
+        mkdir -p day_$d/python day_$d/go
+        touch day_$d/python/solution.py day_$d/go/solution.go
     else
         echo "Folder already exists"
     fi

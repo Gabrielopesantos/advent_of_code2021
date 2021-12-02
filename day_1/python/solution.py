@@ -1,4 +1,4 @@
-with open("./input.txt", "r") as input:
+with open("./day_1/input.txt", "r") as input:
     input_int = list(map(int, input.readlines()))
 
 # pt1
