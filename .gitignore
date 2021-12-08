@@ -130,3 +130,5 @@ dmypy.json
 
 #
 **/session.txt
+**/.vscode
+**/.idea
