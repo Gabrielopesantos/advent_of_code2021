@@ -51,8 +51,7 @@ for i, l in enumerate(pt2_input):
         if c in open:
             stack.appendleft(c)
         else:  # c has to be in "close"
-            if any([True if c == close[i] and stack[0] == open[i] else False for i in range(4)]):
-                stack.popleft()
+            stack.popleft()
     stacks.append(list(stack))
 
 pts_line = []
